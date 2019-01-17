@@ -1,0 +1,77 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 2, src/sass/components/header.scss */
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 10px;
+}
+
+/* line 6, src/sass/components/header.scss */
+.header__top__logo {
+  width: 65%;
+}
+
+/* line 8, src/sass/components/header.scss */
+.header__top__logo--image {
+  width: 50%;
+}
+
+/* line 12, src/sass/components/header.scss */
+.header__top__phone {
+  font-weight: bold;
+  padding-top: 15px;
+  color: #676666;
+}
+
+/* line 18, src/sass/components/header.scss */
+.header__menu {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 21, src/sass/components/header.scss */
+.header__menu__list {
+  width: 50%;
+  margin-top: 25px;
+  padding-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 26, src/sass/components/header.scss */
+.header__menu__list__item {
+  padding: 5px;
+}
+
+/* line 28, src/sass/components/header.scss */
+.header__menu__list__item--link {
+  color: #676666;
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+/* line 36, src/sass/components/header.scss */
+.header__menu__button {
+  height: 20px;
+  background-color: #00A556;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
+  margin-top: 19px;
+  border-radius: 10px;
+  padding-top: 15px;
+}
