@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alcom Monitoramentos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="header__top__logo">
+				<img src="./images/logo.png" class="header__top__logo--image" alt="">
+			</div>
+			<div class="header__top__phone">11 99973.2158</div>
+		</div>
+		<div class="header__menu">
+			<ul class="header__menu__list">
+				<li class="header__menu__list__item">
+					<a href="" class="header__menu__list__item--link">Sobre</a>
+				</li>
+				<li class="header__menu__list__item">
+					<a href="" class="header__menu__list__item--link">Serviços</a>
+				</li>
+			</ul>
+			<div class="header__menu__button">quero contratar</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__banner">
+			<div class="main__banner--title">monitoramento 24h por dia</div>
+			<div class="main__banner--secondary">
+
+        central de monitoramento 24h por dia, 7 dias por semana, sensores de movimento e segurança predial.
+        
+			</div>
+		</div>
+		<div class="main__content">
+			<div class="main__content__about" id="about">
+				<h1 class="main__content__about--title">
+					A melhor estratégia para garantir sua tranquilidade, <strong>sempre</strong>.
+				</h1>
+				<p class="main__content__about--content">
+					O sistema de monitoramento <strong>Alcom 24h</strong> é pensado e personalizado de acordo com as necessidades de seu comércio.
+        Dessa maneira, você consegue escolher seus equipamentos e planos que mais se adequam ao seu negócio, garantindo maior <strong> tranquilidade e segurança 
+        com o menor preço</strong>.
+				</p>
+				<div class="main__content__about__services js-flickity" data-flickity-options='{ "wrapAround": true, "cellAlign": "left", "contain": true, "pageDots": true, "prevNextButtons": false  }'>
+					<div class="main__content__about__services__item">
+						Assistência técnica e suporte telefônico <br> 24h por dia. 7 dias por semana
+					</div>
+					<div class="main__content__about__services__item">
+						Equipamentos de alta tecnologia, sensores de movimento, câmeras e sirene.
+					</div>
+					<div class="main__content__about__services__item">
+						Apoio móvel para atendimento rápido no local.
+					</div>
+				</div>
+			</div>
+			<div class="main__content__products" id="products" >
+				<h1>Serviços</h1>
+				<div class="main__content__products__list js-flickity" data-flickity-options='{ "wrapAround": true, "cellAlign": "left", "contain": true, "pageDots": true, "prevNextButtons": false  }'>
+					<div class="main__content__products__list__item">
+							<div class="main__content__products__list__item--title">
+									<span class="fas fa-signal"></span>
+									GPRS
+							</div>
+							<p>
+									Em caso de ausência ou corte da linha telefônica, o sistema utiliza a rede de celular para enviar as informações à central de Monitoramento
+							</p>
+						</div>
+						<div class="main__content__products__list__item">
+							<div class="main__content__products__list__item--title">
+									<span class="fas fa-tools"></span>
+									Manutenção
+							</div>
+							<p>
+								Técnicos disponíveis para ir ao local fazer as manutenções no equipamento 
+							</p>
+						</div>
+						<div class="main__content__products__list__item">
+							<div class="main__content__products__list__item--title">
+									<span class="fas fa-motorcycle"></span>
+									Apoio móvel
+							</div>
+							<p>	
+								Caso necessário, uma equipe o acompanhará na vistoria externa do imóvel
+							</p>
+						</div>
+				</div>
+			
+			</div>
+			<div class="main__content__contact" id="contact">
+				<h1>Atendimento</h1>
+			</div>
+			<div class="main__contact__form">
+				<div class="main__contact__form__group">
+					<label for="name" class="main__contact__form__group--label">Nome*</label>
+					<input type="text" class="main__contact__form__group--input" id="name">
+				</div>
+				<div class="main__contact__form__group">
+						<label for="email" class="main__contact__form__group--label">E-mail*</label>
+					<input type="email" class="main__contact__form__group--input" id="email">
+				</div>
+				<div class="main__contact__form__group">
+					<label for="subject" class="main__contact__form__group--label">Assunto*</label>
+					<input type="text" class="main__contact__form__group--input" id="subject">
+				</div>
+				<div class="main__contact__form__group">
+					<label for="message" class="main__contact__form__group--label">Mensagem*</label>
+					<textarea class="main__contact__form__group--input main__contact__form__group--input--message" id="message"></textarea>
+				</div>
+				<div class="main__contact__form__group">
+					<button class="main__contact__form__group--input--button" onclick="sendForm()">Enviar</button>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/form.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

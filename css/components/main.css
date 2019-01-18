@@ -1,0 +1,186 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 1, src/sass/components/main.scss */
+.flickity-page-dots {
+  bottom: 0px;
+}
+
+/* white circles */
+/* line 5, src/sass/components/main.scss */
+.flickity-page-dots .dot {
+  width: 5px !important;
+  height: 5px !important;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* fill-in selected dot */
+/* line 13, src/sass/components/main.scss */
+.flickity-page-dots .dot.is-selected {
+  background: #00b55b;
+}
+
+/* line 17, src/sass/components/main.scss */
+.main__banner {
+  background-image: url("/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #FFF;
+  text-align: center;
+  height: 250px;
+  padding-top: 25px;
+}
+
+/* line 26, src/sass/components/main.scss */
+.main__banner--title {
+  font-size: 32px !important;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 9px;
+  font-weight: 300;
+}
+
+/* line 32, src/sass/components/main.scss */
+.main__banner--secondary {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 9px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+/* line 39, src/sass/components/main.scss */
+.main__content {
+  text-align: center;
+  color: #333;
+}
+
+/* line 42, src/sass/components/main.scss */
+.main__content__about {
+  padding-bottom: 35px !important;
+  padding: 9px;
+  padding-top: 30px;
+}
+
+/* line 46, src/sass/components/main.scss */
+.main__content__about--title {
+  font-size: 23px;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+
+/* line 50, src/sass/components/main.scss */
+.main__content__about--title strong {
+  color: #076d3c;
+  font-weight: 700;
+}
+
+/* line 55, src/sass/components/main.scss */
+.main__content__about--content {
+  padding-bottom: 25px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 59, src/sass/components/main.scss */
+.main__content__about--content strong {
+  color: #076d3c;
+  font-weight: 700;
+}
+
+/* line 65, src/sass/components/main.scss */
+.main__content__about__services {
+  border: 1px solid #F0F0F0;
+}
+
+/* line 67, src/sass/components/main.scss */
+.main__content__about__services__item {
+  position: absolute;
+  left: 0%;
+  padding: 15px;
+  min-height: 50px;
+  width: 90%;
+  border-left: 1px solid #F0F0F0;
+  border-right: 1px solid #F0F0F0;
+  font-size: 17px;
+  color: #737373;
+}
+
+/* line 77, src/sass/components/main.scss */
+.main__content__about__services__item:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 19px;
+}
+
+/* line 87, src/sass/components/main.scss */
+.main__content__products {
+  background-color: #F0F0F0;
+  border: 1px solid #F0F0F0;
+  padding-top: 25px;
+}
+
+/* line 91, src/sass/components/main.scss */
+.main__content__products h1 {
+  font-size: 23px;
+  font-weight: 300;
+  padding-bottom: 9px;
+}
+
+/* line 96, src/sass/components/main.scss */
+.main__content__products__list {
+  margin-bottom: 35px;
+}
+
+/* line 98, src/sass/components/main.scss */
+.main__content__products__list .dot {
+  border: 2px solid #F0F0F0 !important;
+}
+
+/* line 101, src/sass/components/main.scss */
+.main__content__products__list__item {
+  padding-top: 25px;
+  background-color: #FFF;
+  position: absolute;
+  left: 0%;
+  padding: 15px;
+  min-height: 90px;
+  width: 90%;
+  border: 1px solid #d4d4d4;
+  font-size: 17px;
+  color: #737373;
+}
+
+/* line 102, src/sass/components/main.scss */
+.main__content__products__list__item p {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+/* line 116, src/sass/components/main.scss */
+.main__content__products__list__item:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 19px;
+}
+
+/* line 126, src/sass/components/main.scss */
+.main__content__contact {
+  padding-top: 15px;
+  background-color: #FFF;
+}
+
+/* line 129, src/sass/components/main.scss */
+.main__content__contact h1 {
+  font-size: 23px;
+  font-weight: 300;
+  padding-bottom: 9px;
+}

@@ -1,0 +1,106 @@
+/*!
+ * project-name v0.0.1
+ * A description for your project.
+ * (c) 2019 YOUR NAME
+ * MIT License
+ * http://link-to-your-git-repo.com
+ */
+
+/* line 2, src/sass/components/contact.scss */
+.main__contact {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+@media (max-width: 800px) {
+  /* line 2, src/sass/components/contact.scss */
+  .main__contact {
+    padding-left: 5%;
+  }
+}
+
+/* line 8, src/sass/components/contact.scss */
+.main__contact__text {
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+/* line 12, src/sass/components/contact.scss */
+.main__contact__social {
+  padding-bottom: 15px;
+  font-size: 21px;
+}
+
+/* line 15, src/sass/components/contact.scss */
+.main__contact__social--link {
+  text-decoration: none;
+  color: #e2dddd;
+}
+
+/* line 19, src/sass/components/contact.scss */
+.main__contact__social span {
+  padding-right: 10px;
+}
+
+/* line 21, src/sass/components/contact.scss */
+.main__contact__social span:hover {
+  color: #5a5a5a;
+}
+
+/* line 27, src/sass/components/contact.scss */
+.main__contact__form {
+  padding-left: 60px;
+}
+
+/* line 29, src/sass/components/contact.scss */
+.main__contact__form__group {
+  width: 20%;
+  padding-bottom: 10px;
+}
+
+/* line 32, src/sass/components/contact.scss */
+.main__contact__form__group--label {
+  color: #333;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+/* line 37, src/sass/components/contact.scss */
+.main__contact__form__group--input {
+  margin-top: 15px;
+  width: 350px;
+  height: 25px;
+  border-radius: 2px;
+  border: 1px solid #d2d2d2;
+  padding: 5px;
+  color: #333;
+}
+
+@media (max-width: 800px) {
+  /* line 37, src/sass/components/contact.scss */
+  .main__contact__form__group--input {
+    width: 240px;
+  }
+}
+
+/* line 49, src/sass/components/contact.scss */
+.main__contact__form__group--input--message {
+  height: 50px;
+}
+
+/* line 52, src/sass/components/contact.scss */
+.main__contact__form__group--input--button {
+  width: 150px;
+  height: 30px;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+  background-color: #00A556;
+  color: #FFF;
+}
+
+/* line 60, src/sass/components/contact.scss */
+.main__contact__form__group--input--button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
