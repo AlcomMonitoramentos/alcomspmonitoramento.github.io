@@ -39,7 +39,14 @@
   padding-top: 25px;
 }
 
-/* line 26, src/sass/components/main.scss */
+@media (min-width: 800px) {
+  /* line 17, src/sass/components/main.scss */
+  .main__banner {
+    height: 390px;
+  }
+}
+
+/* line 29, src/sass/components/main.scss */
 .main__banner--title {
   font-size: 32px !important;
   background-color: rgba(0, 0, 0, 0.6);
@@ -47,7 +54,7 @@
   font-weight: 300;
 }
 
-/* line 32, src/sass/components/main.scss */
+/* line 35, src/sass/components/main.scss */
 .main__banner--secondary {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 9px;
@@ -55,51 +62,51 @@
   margin-top: 25px;
 }
 
-/* line 39, src/sass/components/main.scss */
+/* line 42, src/sass/components/main.scss */
 .main__content {
   text-align: center;
   color: #333;
 }
 
-/* line 42, src/sass/components/main.scss */
+/* line 45, src/sass/components/main.scss */
 .main__content__about {
   padding-bottom: 35px !important;
   padding: 9px;
   padding-top: 30px;
 }
 
-/* line 46, src/sass/components/main.scss */
+/* line 49, src/sass/components/main.scss */
 .main__content__about--title {
   font-size: 23px;
   font-weight: 300;
   padding-bottom: 15px;
 }
 
-/* line 50, src/sass/components/main.scss */
+/* line 53, src/sass/components/main.scss */
 .main__content__about--title strong {
   color: #076d3c;
   font-weight: 700;
 }
 
-/* line 55, src/sass/components/main.scss */
+/* line 58, src/sass/components/main.scss */
 .main__content__about--content {
   padding-bottom: 25px;
   font-size: 15px;
   font-weight: 300;
 }
 
-/* line 59, src/sass/components/main.scss */
+/* line 62, src/sass/components/main.scss */
 .main__content__about--content strong {
   color: #076d3c;
   font-weight: 700;
 }
 
-/* line 65, src/sass/components/main.scss */
+/* line 68, src/sass/components/main.scss */
 .main__content__about__services {
   border: 1px solid #F0F0F0;
 }
 
-/* line 67, src/sass/components/main.scss */
+/* line 70, src/sass/components/main.scss */
 .main__content__about__services__item {
   position: absolute;
   left: 0%;
@@ -112,7 +119,7 @@
   color: #737373;
 }
 
-/* line 77, src/sass/components/main.scss */
+/* line 80, src/sass/components/main.scss */
 .main__content__about__services__item:before {
   display: block;
   text-align: center;
@@ -120,31 +127,31 @@
   font-size: 19px;
 }
 
-/* line 87, src/sass/components/main.scss */
+/* line 90, src/sass/components/main.scss */
 .main__content__products {
   background-color: #F0F0F0;
   border: 1px solid #F0F0F0;
   padding-top: 25px;
 }
 
-/* line 91, src/sass/components/main.scss */
+/* line 94, src/sass/components/main.scss */
 .main__content__products h1 {
   font-size: 23px;
   font-weight: 300;
   padding-bottom: 9px;
 }
 
-/* line 96, src/sass/components/main.scss */
+/* line 99, src/sass/components/main.scss */
 .main__content__products__list {
   margin-bottom: 35px;
 }
 
-/* line 98, src/sass/components/main.scss */
+/* line 101, src/sass/components/main.scss */
 .main__content__products__list .dot {
   border: 2px solid #F0F0F0 !important;
 }
 
-/* line 101, src/sass/components/main.scss */
+/* line 104, src/sass/components/main.scss */
 .main__content__products__list__item {
   padding-top: 25px;
   background-color: #FFF;
@@ -158,13 +165,13 @@
   color: #737373;
 }
 
-/* line 102, src/sass/components/main.scss */
+/* line 105, src/sass/components/main.scss */
 .main__content__products__list__item p {
   font-size: 14px;
   padding-top: 15px;
 }
 
-/* line 116, src/sass/components/main.scss */
+/* line 119, src/sass/components/main.scss */
 .main__content__products__list__item:before {
   display: block;
   text-align: center;
@@ -172,13 +179,13 @@
   font-size: 19px;
 }
 
-/* line 126, src/sass/components/main.scss */
+/* line 129, src/sass/components/main.scss */
 .main__content__contact {
   padding-top: 15px;
   background-color: #FFF;
 }
 
-/* line 129, src/sass/components/main.scss */
+/* line 132, src/sass/components/main.scss */
 .main__content__contact h1 {
   font-size: 23px;
   font-weight: 300;

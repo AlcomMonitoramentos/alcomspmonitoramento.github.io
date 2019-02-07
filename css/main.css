@@ -72,7 +72,14 @@ table {
   border-spacing: 0;
 }
 
-/* line 2, src/sass/components/header.scss */
+@media (min-width: 800px) {
+  /* line 1, src/sass/components/header.scss */
+  .header {
+    display: none;
+  }
+}
+
+/* line 5, src/sass/components/header.scss */
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,24 +88,39 @@ table {
   padding-bottom: 10px;
 }
 
-/* line 6, src/sass/components/header.scss */
+/* line 9, src/sass/components/header.scss */
 .header__top__logo {
   width: 65%;
 }
 
-/* line 8, src/sass/components/header.scss */
+/* line 11, src/sass/components/header.scss */
 .header__top__logo--image {
   width: 50%;
 }
 
-/* line 12, src/sass/components/header.scss */
+@media (min-width: 800px) {
+  /* line 11, src/sass/components/header.scss */
+  .header__top__logo--image {
+    width: 70%;
+  }
+}
+
+/* line 18, src/sass/components/header.scss */
 .header__top__phone {
   font-weight: bold;
   padding-top: 15px;
   color: #676666;
 }
 
-/* line 18, src/sass/components/header.scss */
+@media (min-width: 800px) {
+  /* line 18, src/sass/components/header.scss */
+  .header__top__phone {
+    padding-left: 25px;
+    padding-top: 20px;
+  }
+}
+
+/* line 28, src/sass/components/header.scss */
 .header__menu {
   height: 80px;
   display: -webkit-box;
@@ -106,7 +128,7 @@ table {
   display: flex;
 }
 
-/* line 21, src/sass/components/header.scss */
+/* line 31, src/sass/components/header.scss */
 .header__menu__list {
   width: 50%;
   margin-top: 25px;
@@ -116,12 +138,12 @@ table {
   display: flex;
 }
 
-/* line 26, src/sass/components/header.scss */
+/* line 36, src/sass/components/header.scss */
 .header__menu__list__item {
   padding: 5px;
 }
 
-/* line 28, src/sass/components/header.scss */
+/* line 38, src/sass/components/header.scss */
 .header__menu__list__item--link {
   color: #676666;
   text-decoration: none;
@@ -129,8 +151,14 @@ table {
   padding-top: 5px;
 }
 
-/* line 36, src/sass/components/header.scss */
+/* line 43, src/sass/components/header.scss */
+.header__menu__list__item--link:hover {
+  color: #afafaf;
+}
+
+/* line 49, src/sass/components/header.scss */
 .header__menu__button {
+  cursor: pointer;
   height: 20px;
   background-color: #00A556;
   color: #FFF;
@@ -140,6 +168,50 @@ table {
   margin-top: 19px;
   border-radius: 10px;
   padding-top: 15px;
+}
+
+@media (min-width: 800px) {
+  /* line 49, src/sass/components/header.scss */
+  .header__menu__button {
+    margin-top: 6px;
+  }
+}
+
+/* line 63, src/sass/components/header.scss */
+.header__menu__button:hover {
+  background-color: #078c4a;
+}
+
+@media (max-width: 800px) {
+  /* line 70, src/sass/components/header.scss */
+  .header_desktop {
+    display: none;
+  }
+}
+
+/* line 74, src/sass/components/header.scss */
+.header_desktop__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 10px;
+}
+
+/* line 78, src/sass/components/header.scss */
+.header_desktop__top__logo {
+  width: 15%;
+}
+
+/* line 80, src/sass/components/header.scss */
+.header_desktop__top__logo--image {
+  width: 100%;
+}
+
+/* line 84, src/sass/components/header.scss */
+.header_desktop__top__menu {
+  margin-top: -10px;
+  width: 60%;
 }
 
 /* line 1, src/sass/components/main.scss */
@@ -175,7 +247,14 @@ table {
   padding-top: 25px;
 }
 
-/* line 26, src/sass/components/main.scss */
+@media (min-width: 800px) {
+  /* line 17, src/sass/components/main.scss */
+  .main__banner {
+    height: 390px;
+  }
+}
+
+/* line 29, src/sass/components/main.scss */
 .main__banner--title {
   font-size: 32px !important;
   background-color: rgba(0, 0, 0, 0.6);
@@ -183,7 +262,7 @@ table {
   font-weight: 300;
 }
 
-/* line 32, src/sass/components/main.scss */
+/* line 35, src/sass/components/main.scss */
 .main__banner--secondary {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 9px;
@@ -191,51 +270,51 @@ table {
   margin-top: 25px;
 }
 
-/* line 39, src/sass/components/main.scss */
+/* line 42, src/sass/components/main.scss */
 .main__content {
   text-align: center;
   color: #333;
 }
 
-/* line 42, src/sass/components/main.scss */
+/* line 45, src/sass/components/main.scss */
 .main__content__about {
   padding-bottom: 35px !important;
   padding: 9px;
   padding-top: 30px;
 }
 
-/* line 46, src/sass/components/main.scss */
+/* line 49, src/sass/components/main.scss */
 .main__content__about--title {
   font-size: 23px;
   font-weight: 300;
   padding-bottom: 15px;
 }
 
-/* line 50, src/sass/components/main.scss */
+/* line 53, src/sass/components/main.scss */
 .main__content__about--title strong {
   color: #076d3c;
   font-weight: 700;
 }
 
-/* line 55, src/sass/components/main.scss */
+/* line 58, src/sass/components/main.scss */
 .main__content__about--content {
   padding-bottom: 25px;
   font-size: 15px;
   font-weight: 300;
 }
 
-/* line 59, src/sass/components/main.scss */
+/* line 62, src/sass/components/main.scss */
 .main__content__about--content strong {
   color: #076d3c;
   font-weight: 700;
 }
 
-/* line 65, src/sass/components/main.scss */
+/* line 68, src/sass/components/main.scss */
 .main__content__about__services {
   border: 1px solid #F0F0F0;
 }
 
-/* line 67, src/sass/components/main.scss */
+/* line 70, src/sass/components/main.scss */
 .main__content__about__services__item {
   position: absolute;
   left: 0%;
@@ -248,7 +327,7 @@ table {
   color: #737373;
 }
 
-/* line 77, src/sass/components/main.scss */
+/* line 80, src/sass/components/main.scss */
 .main__content__about__services__item:before {
   display: block;
   text-align: center;
@@ -256,31 +335,31 @@ table {
   font-size: 19px;
 }
 
-/* line 87, src/sass/components/main.scss */
+/* line 90, src/sass/components/main.scss */
 .main__content__products {
   background-color: #F0F0F0;
   border: 1px solid #F0F0F0;
   padding-top: 25px;
 }
 
-/* line 91, src/sass/components/main.scss */
+/* line 94, src/sass/components/main.scss */
 .main__content__products h1 {
   font-size: 23px;
   font-weight: 300;
   padding-bottom: 9px;
 }
 
-/* line 96, src/sass/components/main.scss */
+/* line 99, src/sass/components/main.scss */
 .main__content__products__list {
   margin-bottom: 35px;
 }
 
-/* line 98, src/sass/components/main.scss */
+/* line 101, src/sass/components/main.scss */
 .main__content__products__list .dot {
   border: 2px solid #F0F0F0 !important;
 }
 
-/* line 101, src/sass/components/main.scss */
+/* line 104, src/sass/components/main.scss */
 .main__content__products__list__item {
   padding-top: 25px;
   background-color: #FFF;
@@ -294,13 +373,13 @@ table {
   color: #737373;
 }
 
-/* line 102, src/sass/components/main.scss */
+/* line 105, src/sass/components/main.scss */
 .main__content__products__list__item p {
   font-size: 14px;
   padding-top: 15px;
 }
 
-/* line 116, src/sass/components/main.scss */
+/* line 119, src/sass/components/main.scss */
 .main__content__products__list__item:before {
   display: block;
   text-align: center;
@@ -308,13 +387,13 @@ table {
   font-size: 19px;
 }
 
-/* line 126, src/sass/components/main.scss */
+/* line 129, src/sass/components/main.scss */
 .main__content__contact {
   padding-top: 15px;
   background-color: #FFF;
 }
 
-/* line 129, src/sass/components/main.scss */
+/* line 132, src/sass/components/main.scss */
 .main__content__contact h1 {
   font-size: 23px;
   font-weight: 300;
@@ -537,20 +616,34 @@ https://flickity.metafizzy.co
   padding-left: 60px;
 }
 
-/* line 29, src/sass/components/contact.scss */
+@media (min-width: 800px) {
+  /* line 27, src/sass/components/contact.scss */
+  .main__contact__form {
+    padding-left: 40%;
+  }
+}
+
+/* line 32, src/sass/components/contact.scss */
 .main__contact__form__group {
   width: 20%;
   padding-bottom: 10px;
 }
 
-/* line 32, src/sass/components/contact.scss */
+@media (min-width: 800px) {
+  /* line 32, src/sass/components/contact.scss */
+  .main__contact__form__group {
+    width: 6%;
+  }
+}
+
+/* line 38, src/sass/components/contact.scss */
 .main__contact__form__group--label {
   color: #333;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 37, src/sass/components/contact.scss */
+/* line 43, src/sass/components/contact.scss */
 .main__contact__form__group--input {
   margin-top: 15px;
   width: 350px;
@@ -562,18 +655,18 @@ https://flickity.metafizzy.co
 }
 
 @media (max-width: 800px) {
-  /* line 37, src/sass/components/contact.scss */
+  /* line 43, src/sass/components/contact.scss */
   .main__contact__form__group--input {
     width: 240px;
   }
 }
 
-/* line 49, src/sass/components/contact.scss */
+/* line 55, src/sass/components/contact.scss */
 .main__contact__form__group--input--message {
   height: 50px;
 }
 
-/* line 52, src/sass/components/contact.scss */
+/* line 58, src/sass/components/contact.scss */
 .main__contact__form__group--input--button {
   width: 150px;
   height: 30px;
@@ -584,7 +677,7 @@ https://flickity.metafizzy.co
   color: #FFF;
 }
 
-/* line 60, src/sass/components/contact.scss */
+/* line 66, src/sass/components/contact.scss */
 .main__contact__form__group--input--button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
